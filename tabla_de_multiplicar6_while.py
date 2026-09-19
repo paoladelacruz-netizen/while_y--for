@@ -1,0 +1,9 @@
+numero = 1
+multiplicar = 5
+while numero <= 10:
+    while multiplicar >= 5:
+        resultado = numero * multiplicar
+        print(numero, "x", multiplicar, "=", resultado)
+        multiplicar -= 1
+    numero += 1
+    multiplicar = 5
